@@ -7,9 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HelloComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    console.log('Constructor!!!');
+  }
 
   ngOnInit() {
+    console.log('ngOnInit');
   }
 
 }
