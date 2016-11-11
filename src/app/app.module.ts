@@ -27,7 +27,7 @@ import { RouterModule }   from '@angular/router';
     JsonpModule,
     RouterModule.forRoot([
       {path: '', component: HomeComponent},
-      {path: 'hello', component: HelloComponent }
+      {path: 'hello', component: HelloComponent },
       {path: 'home', component: HomeComponent }
     ])
   ],
